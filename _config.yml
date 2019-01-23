@@ -31,8 +31,8 @@ disqus_site_shortname: "nandothemes"
 
 # Author settings
 author:
-  name: Fernando Moreira
-  job: Frontend Engineer
+  name: Nem Ekpunobi
+  job: Junior Web & Mobile Developer
   bio: "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
   thumb: /images/author.jpg
   email: nandomoreira.me@gmail.com
@@ -53,4 +53,4 @@ navbar:
 
 exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
 
-theme: jekyll-theme-end2end
+# theme: jekyll-theme-end2end
