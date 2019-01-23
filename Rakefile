@@ -1,7 +1,7 @@
 # encoding: UTF-8
 require "rubygems"
 require "tmpdir"
-require "bundler/setup"
+# require "bundler/setup"
 require "jekyll"
 require "bourbon"
 
