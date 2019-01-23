@@ -53,4 +53,4 @@ navbar:
 
 exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
 
-theme: jekyll-theme-hacker
+theme: jekyll-theme-end2end
