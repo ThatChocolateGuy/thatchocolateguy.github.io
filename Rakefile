@@ -41,7 +41,7 @@ task :publish => [:generate] do
     system "git init"
     system "git checkout --orphan #{GITHUB_REPO_BRANCH}"
     system "git add ."
-    message = "Site updated at #{Time.now.utc}"
+    message = "Site updated at #{Time.now.est}"
     system "git commit -am #{message.inspect}"
     system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
     system "git push origin #{GITHUB_REPO_BRANCH} --force"
