@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Build settings
 permalink: /projects/:year/:title/
 markdown: kramdown
@@ -56,3 +57,5 @@ navbar:
     title: Projects
 
 exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
+=======
+>>>>>>> 9ef800b61736f2caa86ea54ddfac1824bab82ec0
