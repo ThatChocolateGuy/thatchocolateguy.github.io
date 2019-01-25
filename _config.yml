@@ -23,7 +23,7 @@ sass:
 # SEO settings
 title: ThatXRGuy
 description: "I build things with code"
-keywords: "xr, nem, development, code, software, apps, web, mobile, dev"
+keywords: "thatxrguy, xrguy, xr, nem, developer, code, software, apps, application, web, mobile, dev, thatchocolateguy, github"
 url: https://thatchocolateguy.github.io/
 baseurl: ""
 
@@ -35,7 +35,7 @@ disqus_site_shortname: "thatchocolateguy"
 # Author settings
 author:
   name: Nem Ekpunobi
-  job: Junior Web & Mobile Developer
+  job: Moderately Stacked Developer
   bio: "Spatial computing enthusiast, interaction design and usability, always looking for the best project and good bubble tea."
   thumb: /images/author.jpg
   email: nemx14@gmail.com

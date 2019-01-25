@@ -1236,19 +1236,22 @@
 </svg>
 
 <style>
+	html {
+		height: 99%;
+	}
 	body {
 		background-color: #fff;
-		height: 99.5%;
-		
+		height: 100%;
 	}
 	svg.circuit-path{
-		display: none;
-		position: absolute;
-		bottom: 0;
-		right: 0;
-    background-color: #fff;
+		position: fixed;
+		bottom: 50%;
+		right: 50%;
+		transform: translate(50%,50%);
     z-index: -9;
-    opacity: .4;
+    opacity: .5;
+		height: 200%;
+		width: auto;
 	}
 	.path {
 		animation: draw 20s infinite;
@@ -1271,8 +1274,17 @@
 	}
 	
 	@media screen and (min-width: 768px) {
-			svg.circuit-path {
-				display: block;
+		svg.circuit-path {
+			height: auto;
+			width: 200%;
+		}
+	}
+	
+	/* hero container	*/
+	@media screen and (min-width: 768px) {
+		.container {
+			max-width: 768px;
+			padding-top: 25px;
 		}
 	}
 
