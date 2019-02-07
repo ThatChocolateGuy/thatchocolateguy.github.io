@@ -8,6 +8,7 @@ require "bourbon"
 # Change your GitHub reponame
 GITHUB_REPONAME = "ThatChocolateGuy/thatchocolateguy.github.io"
 GITHUB_REPO_BRANCH = "master"
+GITHUB_CUSTOM_DOMAIN = "thatxrguy.com"
 
 SOURCE = "source/"
 DEST = "_site"
@@ -40,6 +41,7 @@ task :publish => [:generate] do
 
     system "git init"
     system "git checkout --orphan #{GITHUB_REPO_BRANCH}"
+		system "echo \"#{GITHUB_CUSTOM_DOMAIN}\" > CNAME"
     system "git add ."
     message = "Site updated at #{Time.now.utc}"
     system "git commit -am #{message.inspect}"
