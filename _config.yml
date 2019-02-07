@@ -12,7 +12,7 @@ pagination:
   per_page: 3
   permalink: "/page/:num/"
 
-comments: true
+comments: false
 
 source: source
 destination: _site
@@ -24,13 +24,13 @@ sass:
 title: ThatXRGuy
 description: "I build things with code"
 keywords: "thatxrguy, xrguy, xr, nem, developer, code, software, apps, application, web, mobile, dev, thatchocolateguy, github"
-url: https://thatchocolateguy.github.io/
+url: https://thatxrguy.com/
 baseurl: ""
 
 #google_analytics: UA-52446115-1
 repo: http://github.com/ThatChocolateGuy
-disqus_shortname: "thatchocolateguy"
-disqus_site_shortname: "thatchocolateguy"
+#disqus_shortname: "thatchocolateguy"
+#disqus_site_shortname: "thatchocolateguy"
 
 # Author settings
 author:

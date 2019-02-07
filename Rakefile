@@ -41,7 +41,7 @@ task :publish => [:generate] do
     system "git init"
     system "git checkout --orphan #{GITHUB_REPO_BRANCH}"
     system "git add ."
-    message = "Site updated at #{Time.now.est}"
+    message = "Site updated at #{Time.now.utc}"
     system "git commit -am #{message.inspect}"
     system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
     system "git push origin #{GITHUB_REPO_BRANCH} --force"
@@ -89,7 +89,7 @@ task :post do
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts "permalink: #{slug}"
     post.puts "date: #{date} #{time}"
-    post.puts "comments: true"
+    post.puts "comments: false"
     post.puts "description: \"#{title}\""
     post.puts 'keywords: ""'
     post.puts "categories:"
