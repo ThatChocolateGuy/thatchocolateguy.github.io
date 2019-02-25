@@ -27,7 +27,7 @@ keywords: "thatxrguy, xrguy, xr, nem, developer, code, software, apps, applicati
 url: https://thatxrguy.com/
 baseurl: ""
 
-#google_analytics: UA-52446115-1
+google_analytics: UA-135143182-1
 repo: http://github.com/ThatChocolateGuy
 #disqus_shortname: "thatchocolateguy"
 #disqus_site_shortname: "thatchocolateguy"

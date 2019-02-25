@@ -14,14 +14,14 @@ layout: pages
 
     <div class="post-content">
       {% if page.image %}
-        <figure class="post-thumbnail {% if page.image %}{% else %}no-image{% endif %}">
+        <figure class="post-thumbnail {% if page.image %}{% else %}no-image{% endif %}" {% if page.image %}style="background-color: transparent;"{% endif %}>
           <img src="{{ page.image }}" alt="{{ page.title }}">
         </figure>
       {% endif %}
       {{ content }}
     </div>
 
-<!--    {% include comments.html %}-->
+    <!-- {% include comments.html %} -->
   </div>
 
 </article>
