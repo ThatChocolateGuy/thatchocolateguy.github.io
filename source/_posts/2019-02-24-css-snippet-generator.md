@@ -33,4 +33,4 @@ This project utilizes the <a href="https://github.com/google/code-prettify" targ
 ## <a href="https://thatxrguy.com/CSS-Snippet-Generator/" target="_blank">Try out the demo here</a>
 <hr>
 ## Screenshot
-<a href="https://thatxrguy.com/CSS-Snippet-Generator/" target="_blank" alt="Snippet Generator"><img src="/Screenshots/css-generator.png"></a>
+<a href="https://thatxrguy.com/CSS-Snippet-Generator/" target="_blank" alt="Snippet Generator"><img src="/Screenshots/css-generator.png?raw=true"></a>
