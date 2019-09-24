@@ -25,12 +25,16 @@ tags:
 Generate formatted CSS which would otherwise be tedious to code by hand.
 
 Using variables and a bit of custom logic, you can generate repetitive code snippets with parameters/arguments that differ slightly from snippet-to-snippet.
+<hr>
 
 This project utilizes the <a href="https://github.com/google/code-prettify" target="_blank">prettify.js</a> library by Google and <a href="https://github.com/google/code-prettify/blob/master/styles/sunburst.css" target="_blank">Vim Sunburst Theme</a> by David Leibovic.
 
 ## <small><a href="https://github.com/ThatChocolateGuy/CSS-Snippet-Generator" target="_blank">Check out the repo here</a></small>
-
-## <a href="https://thatxrguy.com/CSS-Snippet-Generator/" target="_blank">Try out the demo here</a>
 <hr>
-## Screenshot
-<a href="https://thatxrguy.com/CSS-Snippet-Generator/" target="_blank" alt="Snippet Generator"><img src="/Screenshots/css-generator.PNG?raw=true"></a>
+## Try it out!
+<p class="codepen" data-height="607" data-theme-id="light" data-default-tab="result" data-user="thatchocolateguy" data-slug-hash="YzKjYpo" style="height: 607px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS Snippet Generator">
+  <span>See the Pen <a href="https://codepen.io/thatchocolateguy/pen/YzKjYpo">
+  CSS Snippet Generator</a> by Nem (<a href="https://codepen.io/thatchocolateguy">@thatchocolateguy</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
