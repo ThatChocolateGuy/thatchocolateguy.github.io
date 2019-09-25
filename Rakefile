@@ -32,7 +32,7 @@ task :generate do
 end
 
 desc "Generate and publish blog to gh-pages"
-task :publish => [:generate] do
+task :publish do #=> [:generate] do
   Dir.mktmpdir do |tmp|
     cp_r "_site/.", tmp
 
