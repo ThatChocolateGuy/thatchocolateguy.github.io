@@ -7,7 +7,7 @@ comments: false
 image: "/images/CSS.jpg"
 description: "CSS Snippet Generator"
 keywords: "css, generator, html, css3, snippet, block, web, javascript, js, custom"
-category: "Web"
+categories: "web"
 
 tags:
 - css
