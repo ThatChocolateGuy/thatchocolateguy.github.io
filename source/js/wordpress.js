@@ -26,23 +26,8 @@ $(document).ready(function () {
   setTimeout(function () {
     clearInterval(loader);
     $("#espose").fadeIn();
-    $(".firstSlide").addClass("animate");
     setTimeout(function () {
-      $("div.firstSlide")
-        .eq(0)
-        .find("p")
-        .animate({
-          "margin-top": "194px",
-          "margin-left": "56px",
-          opacity: "1"
-        });
-      $("div.firstSlide")
-        .eq(0)
-        .find("svg")
-        .animate({ "margin-top": "110px", opacity: "1" });
-    }, 300);
-    setTimeout(function () {
-      $("#bootstrap-carousel").show();
+      $("#bootstrap-carousel").fadeIn();
       $("div.firstSlide").hide();
     }, 700);
   }, 2500);
@@ -76,10 +61,6 @@ $(document).ready(function () {
         .animate({ "margin-top": "190px", opacity: "1" });
       $(fullSlides)
         .eq(1)
-        .find("svg")
-        .animate({ "margin-top": "110px", opacity: "1" });
-      $(fullSlides)
-        .eq(1)
         .find("img")
         .animate({ "margin-top": "160px", opacity: "1" });
     }
@@ -87,19 +68,11 @@ $(document).ready(function () {
     if ($(this)[0].scrollTop >= 900 && $(this)[0].scrollTop < 1400) {
       $(fullSlides)
         .eq(2)
-        .find("svg")
-        .animate({ "margin-top": "110px", opacity: "1" });
-      $(fullSlides)
-        .eq(2)
         .find("p")
         .animate({ "margin-right": "60px", opacity: "1" });
     }
 
     if ($(this)[0].scrollTop >= 1400 && $(this)[0].scrollTop < 1900) {
-      $(fullSlides)
-        .eq(3)
-        .find("svg")
-        .animate({ "margin-top": "110px", opacity: "1" });
       setTimeout(function () {
         $(fullSlides)
           .eq(3)
@@ -111,8 +84,8 @@ $(document).ready(function () {
     if ($(this)[0].scrollTop >= 1900 && $(this)[0].scrollTop < 2400) {
       $(fullSlides)
         .eq(4)
-        .find("svg")
-        .animate({ "margin-top": "152px", opacity: "1" });
+        .find("p")
+        .animate({ "margin-top": "190px", opacity: "1" });
     }
 
     if ($(this)[0].scrollTop >= 2400 && $(this)[0].scrollTop < 2900) {
@@ -120,10 +93,6 @@ $(document).ready(function () {
         .eq(5)
         .find("p")
         .animate({ "margin-top": "190px", opacity: "1" });
-      $(fullSlides)
-        .eq(5)
-        .find("svg")
-        .animate({ "margin-top": "110px", opacity: "1" });
     }
 
     if ($(this)[0].scrollTop >= 3050 && $(this)[0].scrollTop < 3612) {

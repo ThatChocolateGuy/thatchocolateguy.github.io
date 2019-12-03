@@ -26,4 +26,6 @@ group :jekyll_plugins do
   gem "pygments.rb"
   gem "jekyll-compose"
   gem "kramdown"
+  gem "autoprefixer-rails"
+  gem "jekyll-assets"
 end
