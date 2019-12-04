@@ -10,9 +10,22 @@ keywords: "wordpress, wp, client, clients, sites, wordpress sites, website, webs
 categories: "web"
 
 tags:
-
+- wordpress
+- php
+- apache
+- mysql
+- wp
+- client
+- website
+- site
+- custom
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Nam aliquam sem et tortor consequat.
+<p style="margin-top: 10px">
+    My experience with WordPress is quite varied. Whether it's constructing pixel-perfect pages based on illustrated designs, or webserver malware removal and site recovery, I've been around the WordPress block a few times.
+</p>
+<p>
+    Swipe or scroll over the window below to check out some client sites I've worked on.
+</p>
 
 {% include wordpress.html %}
