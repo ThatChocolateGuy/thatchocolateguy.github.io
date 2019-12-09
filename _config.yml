@@ -24,7 +24,7 @@ sass:
 
 # SEO settings
 title: ThatXRGuy
-description: "I build things with code"
+description: "I create emotion with code"
 keywords: "thatxrguy, xrguy, xr, nem, developer, code, software, apps, application, web, mobile, dev, thatchocolateguy, github, full stack, full-stack, front-end, front end, developer, development, web developer, web development, full stack developer, full-stack developer"
 url: https://thatxrguy.com/
 baseurl: ""
@@ -37,8 +37,8 @@ repo: http://github.com/ThatChocolateGuy
 # Author settings
 author:
   name: Nem Ekpunobi
-  job: Moderately Stacked Developer
-  bio: "Spatial computing enthusiast, interaction design and usability, always looking for the best project and good bubble tea."
+  job: Flex-Stack Developer
+  bio: "Spatial computing enthusiast, interaction design and usability buff; always looking for the best project and good bubble tea."
   thumb: /images/author.png
   email: nemx14@gmail.com
   url: https://thatxrguy.com/
