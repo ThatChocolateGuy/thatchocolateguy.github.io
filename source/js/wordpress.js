@@ -44,14 +44,14 @@ $(document).ready(function () {
       $(this).scrollTo(carouselScrollTop, 500);
       setTimeout(function () {
         isScrolling = 0;
-      }, 500);
+      }, 510);
     } else if ($(this)[0].scrollTop < carouselScrollTop && isScrolling == 0) {
       isScrolling = 1;
       carouselScrollTop -= scrollBy;
       $(this).scrollTo(carouselScrollTop, 500);
       setTimeout(function () {
         isScrolling = 0;
-      }, 500);
+      }, 510);
     }
 
     if ($(this)[0].scrollTop >= 355 && $(this)[0].scrollTop < 900) {
