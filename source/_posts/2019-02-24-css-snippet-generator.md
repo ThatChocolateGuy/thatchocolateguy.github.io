@@ -21,18 +21,36 @@ tags:
 - js
 - custom
 ---
+<style>
+  @media and screen (max-width: 767px) {
+    .br-desktop {
+      display: none;
+    }
+  }
+</style>
 
 <p style="margin-top: 10px">
   Generate formatted CSS which would otherwise be tedious to code by hand.
 </p>
-<p>
-  Using variables and a bit of custom logic, you can generate repetitive code snippets with parameters/arguments that differ slightly from snippet-to-snippet.
-</p>
+
+Using variables and a bit of custom logic, you can generate repetitive code snippets with parameters that differ slightly from snippet-to-snippet.
+
+<br class="br-desktop">
 <hr>
+
+#### Backstory
+This tiny tool came about as a result of an issue I had styling a client's WordPress site. I needed to target a number of html grid elements in batches. The class names differed only by an appended number, but were not necessarily in predictable order - requiring a lot of manual fiddling.  
+  
+Sometimes it's not worthwhile to write an automation script to handle every edge case possible. Sometimes, all you need is a boost. I wrote CSS Snippet Generator to be that boost.
+
+<hr>
+
 This project utilizes the <a href="https://github.com/google/code-prettify" target="_blank">prettify.js</a> library by Google and <a href="https://github.com/google/code-prettify/blob/master/styles/sunburst.css" target="_blank">Vim Sunburst Theme</a> by David Leibovic.
 
-## <small><a href="https://github.com/ThatChocolateGuy/CSS-Snippet-Generator" target="_blank">Check out the repo here</a></small>
+## <small><a href="https://github.com/ThatChocolateGuy/CSS-Snippet-Generator" target="_blank">Check out the repo</a></small>
+
 <hr>
+
 ## Try it out!
 <p class="codepen" data-height="607" data-theme-id="light" data-default-tab="result" data-user="thatchocolateguy" data-slug-hash="YzKjYpo" style="height: 607px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS Snippet Generator">
   <span>See the Pen <a href="https://codepen.io/thatchocolateguy/pen/YzKjYpo">
