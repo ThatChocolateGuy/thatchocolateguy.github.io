@@ -22,7 +22,7 @@ tags:
 - custom
 ---
 <style>
-  @media and screen (max-width: 767px) {
+  @media only screen and (max-width: 767px) {
     .br-desktop {
       display: none;
     }
@@ -36,18 +36,22 @@ tags:
 Using variables and a bit of custom logic, you can generate repetitive code snippets with parameters that differ slightly from snippet-to-snippet.
 
 <br class="br-desktop">
-<hr>
+
+---
 
 #### Backstory
-This tiny tool came about as a result of an issue I had styling a client's WordPress site. I needed to target a number of html grid elements in batches. The class names differed only by an appended number, but were not necessarily in predictable order - requiring a lot of manual fiddling.  
+This tiny tool came about as a result of an issue I had styling a client's WordPress site.
+  
+I needed to target a number of html grid elements in batches. The class names differed only by an appended number, but were not necessarily in predictable order - requiring a lot of manual fiddling.  
   
 Sometimes it's not worthwhile to write an automation script to handle every edge case possible. Sometimes, all you need is a boost. I wrote CSS Snippet Generator to be that boost.
 
 <hr>
 
+#### <a href="https://github.com/ThatChocolateGuy/CSS-Snippet-Generator" target="_blank">Check out the repo</a>
+
 This project utilizes the <a href="https://github.com/google/code-prettify" target="_blank">prettify.js</a> library by Google and <a href="https://github.com/google/code-prettify/blob/master/styles/sunburst.css" target="_blank">Vim Sunburst Theme</a> by David Leibovic.
 
-## <small><a href="https://github.com/ThatChocolateGuy/CSS-Snippet-Generator" target="_blank">Check out the repo</a></small>
 
 <hr>
 
