@@ -26,7 +26,7 @@ sass:
 
 # SEO settings
 title: ThatXRGuy
-description: "I invoke emotion with code"
+description: "I evoke emotion with code"
 keywords: "thatxrguy, xrguy, xr, nem, developer, code, software, apps, application, web, mobile, dev, thatchocolateguy, github, full stack, full-stack, front-end, front end, developer, development, web developer, web development, full stack developer, full-stack developer"
 url: https://thatxrguy.com/
 baseurl: ""
@@ -40,7 +40,7 @@ repo: http://github.com/ThatChocolateGuy
 author:
   name: Nem Ekpunobi
   job: Full Stack Developer
-  bio: "I invoke emotion with code. Spatial computing enthusiast, interaction design and usability buff; always looking for the best project and good bubble tea."
+  bio: "I evoke emotion with code. Spatial computing enthusiast, interaction design and usability buff; always looking for the best project and good bubble tea."
   thumb: /images/author.png
   email: nemx14@gmail.com
   url: https://thatxrguy.com/
