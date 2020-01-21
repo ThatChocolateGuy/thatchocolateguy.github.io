@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ThatXRGuy</title>
+    <description>I evoke emotion with code</description>
+    <link>https://thatxrguy.com//</link>
+    <atom:link href="https://thatxrguy.com//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 21 Jan 2020 13:54:25 -0500</pubDate>
+    <lastBuildDate>Tue, 21 Jan 2020 13:54:25 -0500</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Certitrack</title>
+        <description>&lt;style&gt;
+    .credentials {
+        text-decoration: none;
+        color: #265C8D;
+        font-weight: 500;
+    }
+&lt;/style&gt;
+
+&lt;p style=&quot;margin-top: 10px&quot;&gt;
+    Certitrack is a fairly simple, yet relationally complex Gift Certificate Management System (GCMS). Users can issue, track, delete, and redeem certificates - suitable for any organization or team.
+&lt;/p&gt;
+
+&lt;p&gt;Built with Microsoft’s .NET Core stack, this project leverages the power of a robust and secure relational SQL database.&lt;/p&gt;
+
+&lt;p&gt;This server-rendered app uses the Bootstrap-based AdminLTE, along with AJAX requests where possible, resulting in a highly responsive and fast user experience (UX). Certitrack is currently being reworked into separate backend and frontend services to provide an even smoother UX.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;backstory&quot;&gt;Backstory&lt;/h3&gt;
+
+&lt;p&gt;During the final few months of my college program my class was starting to explore advanced .NET Core development. Our instructor approached me, sharing that there was a request for her to build an application for the head of the Massage Therapy Department at the college.&lt;/p&gt;
+
+&lt;p&gt;He was in need of a robust web app that could help his department go paperless with their gift certificate issuing and tracking system. It was new, intimidating, and I had no idea how to make it happen. “Challenge Accepted” was what I replied with. Here we are today.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;check-out-the-demo-app-and-repo&quot;&gt;Check out the &lt;a href=&quot;https://certitrack-demo.azurewebsites.net/&quot; target=&quot;_blank&quot;&gt;demo app&lt;/a&gt; and &lt;a href=&quot;https://github.com/ThatChocolateGuy/Certitrack&quot; target=&quot;_blank&quot;&gt;repo&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;login-credentials&quot;&gt;&lt;small&gt;Login Credentials:&lt;/small&gt;&lt;/h3&gt;
+
+&lt;p&gt;U: &lt;span class=&quot;credentials&quot;&gt;admin@certitrack.com&lt;/span&gt;
+P: &lt;span class=&quot;credentials&quot;&gt;admin123&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;U: &lt;span class=&quot;credentials&quot;&gt;nonadmin@certitrack.com&lt;/span&gt;
+P: &lt;span class=&quot;credentials&quot;&gt;nonadmin&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sub&gt;Note: Refresh page if app doesn’t load correctly the first time.&lt;/sub&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 20 Jan 2020 06:44:01 -0500</pubDate>
+        <link>https://thatxrguy.com//certitrack</link>
+        <guid isPermaLink="true">https://thatxrguy.com//certitrack</guid>
+        
+        <category>c#</category>
+        
+        <category>asp.net</category>
+        
+        <category>.net core</category>
+        
+        <category>web app</category>
+        
+        <category>azure</category>
+        
+        <category>cloud</category>
+        
+        <category>CI/CD</category>
+        
+        <category>enterprise</category>
+        
+        
+        <category>web,</category>
+        
+        <category>cloud</category>
+        
+      </item>
+    
+      <item>
+        <title>WordPress Websites</title>
+        <description>&lt;style&gt;
+  @media only screen and (max-width: 767px) {
+    .br-desktop {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .hr-mobile {
+      display: none;
+    }
+  }
+&lt;/style&gt;
+
+&lt;p style=&quot;margin-top: 10px&quot;&gt;
+    My experience with WordPress is quite varied.
+&lt;/p&gt;
+
+&lt;p&gt;Whether it’s constructing pixel-perfect pages based on illustrated designs, or webserver malware removal and site recovery, I’ve been around the WordPress block a few times.&lt;/p&gt;
+
+&lt;p&gt;&lt;br class=&quot;br-desktop&quot; /&gt;&lt;/p&gt;
+&lt;hr class=&quot;hr-mobile&quot; /&gt;
+
+&lt;p&gt;Swipe / scroll or tap / click on the grid icon at the bottom-right of the window below to check out some &lt;strong&gt;client sites I’ve worked on&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;!-- Original Full Screen Carousel by Virgil Pana: https://codepen.io/virgilpana/pen/ByEqew --&gt;
+&lt;link href=&quot;/css/wordpress.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+
+&lt;link href=&quot;https://fonts.googleapis.com/css?family=Open+Sans:700&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+
+&lt;div id=&quot;window&quot;&gt;
+  &lt;div id=&quot;header&quot;&gt;
+    &lt;div class=&quot;circle&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;circle&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;circle&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;thumbs&quot;&gt;
+    &lt;div class=&quot;thumb&quot;&gt;
+      &lt;p&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;thumb&quot;&gt;
+      &lt;p&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;thumb&quot;&gt;
+      &lt;p&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;thumb&quot;&gt;
+      &lt;p&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;thumb&quot;&gt;
+      &lt;p&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;thumb&quot;&gt;
+      &lt;p&gt;
+        Coming Soon
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;thumb&quot;&gt;
+      &lt;p&gt;
+        Coming Soon
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;bootstrap-carousel&quot;&gt;
+    &lt;div class=&quot;slides&quot;&gt;
+      &lt;!-- VMM --&gt;
+      &lt;div class=&quot;slide&quot;&gt;
+        &lt;a href=&quot;https://vmministries.org&quot; target=&quot;_blank&quot; class=&quot;grid-item-image&quot;&gt;
+          &lt;sup style=&quot;color: #e6c563; text-decoration: underline;&quot;&gt;Tap or click image to go to site&lt;/sup&gt;
+          &lt;img src=&quot;/images/wp-vmm.png&quot; alt=&quot;Valerie Mitchell Ministries&quot; /&gt;
+        &lt;/a&gt;
+        &lt;p&gt;
+          &lt;strong&gt;Valerie Mitchell Ministries&lt;/strong&gt;
+          &lt;span&gt;A ministry site dedicated to teaching people the art of self-mastery. Beautifully built with
+            &lt;a href=&quot;https://www.elegantthemes.com/gallery/divi/&quot; target=&quot;_blank&quot;&gt;Divi&lt;/a&gt;. Secured and Optimized with
+            &lt;a href=&quot;https://www.cloudflare.com/en-ca/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Cloudflare&lt;/a&gt; CDN.
+          &lt;/span&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;!-- ActEd --&gt;
+      &lt;div class=&quot;slide&quot;&gt;
+        &lt;a href=&quot;https://actedonline.com/&quot; target=&quot;_blank&quot;&gt;
+          &lt;img src=&quot;/images/wp-acted.png&quot; alt=&quot;ActEd Online&quot; /&gt;
+        &lt;/a&gt;
+        &lt;p&gt;
+          &lt;strong&gt;ActEd Online&lt;/strong&gt;
+          &lt;span&gt;An online acting school with a hefty user database. Hardened and optimized. Powered by
+            &lt;a href=&quot;https://themeforest.net/item/enfold-responsive-multipurpose-theme/4519990&quot; target=&quot;_blank&quot;&gt;Enfold.&lt;/a&gt;
+          &lt;/span&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;!-- Scanna --&gt;
+      &lt;div class=&quot;slide&quot;&gt;
+        &lt;a href=&quot;https://www.scannaapp.com/&quot; target=&quot;_blank&quot;&gt;
+          &lt;img src=&quot;/images/wp-scanna.png&quot; alt=&quot;Scanna&quot; /&gt;
+        &lt;/a&gt;
+        &lt;p&gt;
+          &lt;strong&gt;Scanna&lt;/strong&gt;
+          &lt;span&gt;A pixel-perfect landing page aimed at licensed cannabis producers and investors. Complete with
+            &lt;a href=&quot;http://https://www.mailchimp.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Mailchimp&lt;/a&gt;
+            integration. Designed in
+            &lt;a href=&quot;https://www.figma.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Figma&lt;/a&gt;. Creatively crafted
+            with
+            &lt;a href=&quot;https://elementor.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Elementor&lt;/a&gt;.
+          &lt;/span&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;!-- XpressChek --&gt;
+      &lt;div class=&quot;slide&quot;&gt;
+        &lt;a href=&quot;https://xpresschek.com/&quot; target=&quot;_blank&quot;&gt;
+          &lt;img src=&quot;/images/wp-xpresschek.png&quot; alt=&quot;XpressChek&quot; /&gt;
+        &lt;/a&gt;
+        &lt;p&gt;
+          &lt;strong&gt;XpressChek&lt;/strong&gt;
+          &lt;span&gt;A candidate screening service for talent-hungry employers. Secured and performance-optimized.&lt;/span&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;!-- XRCanna --&gt;
+      &lt;div class=&quot;slide&quot;&gt;
+        &lt;a href=&quot;https://xrcanna.com/&quot; target=&quot;_blank&quot;&gt;
+          &lt;img src=&quot;/images/wp-xrcanna.png&quot; alt=&quot;XRCanna&quot; /&gt;
+        &lt;/a&gt;
+        &lt;p&gt;
+          &lt;strong&gt;XRCanna&lt;/strong&gt;
+          &lt;span&gt;A cannabis and technology solutions landing page aimed at investors and licensed producers. Cached and
+            optimized.&lt;/span&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;espose&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;loader&quot;&gt;
+    &lt;div class=&quot;circle c1&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;circle c2&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;circle c3&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;circle c4&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/easing.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;/js/wordpress.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Wed, 25 Sep 2019 17:00:56 -0400</pubDate>
+        <link>https://thatxrguy.com//wordpress</link>
+        <guid isPermaLink="true">https://thatxrguy.com//wordpress</guid>
+        
+        <category>wordpress</category>
+        
+        <category>php</category>
+        
+        <category>apache</category>
+        
+        <category>mysql</category>
+        
+        <category>wp</category>
+        
+        <category>client</category>
+        
+        <category>website</category>
+        
+        <category>site</category>
+        
+        <category>custom</category>
+        
+        
+        <category>web</category>
+        
+      </item>
+    
+      <item>
+        <title>CSS Snippet Generator</title>
+        <description>&lt;style&gt;
+  @media only screen and (min-width: 768px) {
+    .hr-mobile {
+      visibility: hidden;
+      margin-bottom: 40px;
+    }
+  }
+&lt;/style&gt;
+
+&lt;p style=&quot;margin-top: 10px&quot;&gt;
+  Generate formatted CSS which would otherwise be tedious to code by hand.
+&lt;/p&gt;
+
+&lt;p&gt;Using variables and a bit of custom logic, you can generate repetitive code snippets with parameters that differ slightly from snippet-to-snippet.&lt;/p&gt;
+
+&lt;hr class=&quot;hr-mobile&quot; /&gt;
+
+&lt;h3 id=&quot;backstory&quot;&gt;Backstory&lt;/h3&gt;
+
+&lt;p&gt;This tiny tool came about as a result of an issue I had styling a client’s WordPress site.&lt;/p&gt;
+
+&lt;p&gt;I needed to target a number of grid elements in batches. The class names differed only by an appended number, but were not necessarily in predictable order - requiring lots of manual fiddling.&lt;/p&gt;
+
+&lt;p&gt;Sometimes it’s not worthwhile to write an automation script to handle every edge case possible. Sometimes, all you need is a boost. I wrote CSS Snippet Generator to be that boost.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;check-out-the-repo&quot;&gt;&lt;a href=&quot;https://github.com/ThatChocolateGuy/CSS-Snippet-Generator&quot; target=&quot;_blank&quot;&gt;Check out the repo&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This project utilizes the &lt;a href=&quot;https://github.com/google/code-prettify&quot; target=&quot;_blank&quot;&gt;prettify.js&lt;/a&gt; library by Google and &lt;a href=&quot;https://github.com/google/code-prettify/blob/master/styles/sunburst.css&quot; target=&quot;_blank&quot;&gt;Vim Sunburst Theme&lt;/a&gt; by David Leibovic.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;try-it-out&quot;&gt;Try it out!&lt;/h2&gt;
+
+&lt;p&gt;First, select &lt;code&gt;Generate Snippets&lt;/code&gt; to cache modified copies of the original snippet, then &lt;code&gt;Print Snippets&lt;/code&gt; to see the generated set.&lt;/p&gt;
+
+&lt;p&gt;You can play around with the code by editing on &lt;a href=&quot;https://codepen.io/thatchocolateguy/pen/YzKjYpo&quot; target=&quot;_blank&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-height=&quot;607&quot; data-theme-id=&quot;light&quot; data-default-tab=&quot;result&quot; data-user=&quot;thatchocolateguy&quot; data-slug-hash=&quot;YzKjYpo&quot; style=&quot;height: 607px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;CSS Snippet Generator&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/thatchocolateguy/pen/YzKjYpo&quot;&gt;
+    CSS Snippet Generator&lt;/a&gt; by Nem (&lt;a href=&quot;https://codepen.io/thatchocolateguy&quot;&gt;@thatchocolateguy&lt;/a&gt;)
+    on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.
+  &lt;/span&gt;
+&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://static.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sat, 23 Feb 2019 20:13:19 -0500</pubDate>
+        <link>https://thatxrguy.com//css-snippet-generator</link>
+        <guid isPermaLink="true">https://thatxrguy.com//css-snippet-generator</guid>
+        
+        <category>css</category>
+        
+        <category>generator</category>
+        
+        <category>html</category>
+        
+        <category>css3</category>
+        
+        <category>snippet</category>
+        
+        <category>block</category>
+        
+        <category>web</category>
+        
+        <category>javascript</category>
+        
+        <category>js</category>
+        
+        <category>custom</category>
+        
+        
+        <category>web</category>
+        
+      </item>
+    
+      <item>
+        <title>AttendAR</title>
+        <description>&lt;style&gt;
+  @media only screen and (min-width: 768px) {
+    .hr-mobile {
+      visibility: hidden;
+    }
+  }
+&lt;/style&gt;
+
+&lt;p style=&quot;margin-top: 10px&quot;&gt;
+  AttendAR is an ARCore (Android) / desktop app which detects and recognizes student faces to record their class attendance.
+&lt;/p&gt;
+
+&lt;p style=&quot;margin-bottom: 30px&quot;&gt;
+Originally a concept for a class project, this application was created to explore &lt;a href=&quot;https://azure.microsoft.com/en-us/services/cognitive-services/&quot; target=&quot;_blank&quot;&gt;Microsoft's Cognitive Services&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;h4 id=&quot;check-out-the-repo-site&quot;&gt;&lt;a href=&quot;https://thatxrguy.com/AttendAR/&quot; target=&quot;_blank&quot;&gt;Check out the repo site&lt;/a&gt;&lt;/h4&gt;
+
+&lt;hr class=&quot;hr-mobile&quot; /&gt;
+
+&lt;p&gt;Built in Unity3D, the app utilizes the &lt;a href=&quot;https://azure.microsoft.com/en-us/services/cognitive-services/#visionContent&quot; target=&quot;_blank&quot;&gt;Azure Computer Vision and Face APIs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This project is based on demos from Unity assets, &lt;a href=&quot;https://assetstore.unity.com/packages/tools/ai/cloud-face-detection-54489&quot; target=&quot;_blank&quot;&gt;Cloud Face Detection&lt;/a&gt; and &lt;a href=&quot;https://assetstore.unity.com/packages/tools/ai/cloud-user-manager-61391&quot; target=&quot;_blank&quot;&gt;Cloud User Manager&lt;/a&gt; by &lt;a href=&quot;https://assetstore.unity.com/publishers/18913&quot; target=&quot;_blank&quot;&gt;Innovative Smart Systems&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- Include Video Walktrhough --&gt;
+&lt;h3 id=&quot;ui--ux&quot;&gt;UI / UX&lt;/h3&gt;
+
+&lt;h5 id=&quot;general-interface&quot;&gt;General Interface&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Screenshots/Screenshot_20190122-154856_AttendAR.jpg?raw=true&quot; alt=&quot;Interface&quot; title=&quot;Interface&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;user-creation&quot;&gt;User Creation&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Screenshots/Screenshot_20190122-155004_AttendAR.jpg?raw=true&quot; alt=&quot;User Creation&quot; title=&quot;User Creation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Screenshots/Screenshot_20190122-155049_AttendAR.jpg?raw=true&quot; alt=&quot;User Creation Confirmation&quot; title=&quot;User Creation Confirmation&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;user-recognition&quot;&gt;User Recognition&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Screenshots/Screenshot_20190122-155138_AttendAR.jpg?raw=true&quot; alt=&quot;User Recognition&quot; title=&quot;User Recognition&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;resize-image-viewport&quot;&gt;Resize Image Viewport&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Screenshots/Screenshot_20190122-155229_AttendAR.jpg?raw=true&quot; alt=&quot;Resize Image Viewport&quot; title=&quot;Resize Image Viewport&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;user-login-via-interactive-cards&quot;&gt;User Login via Interactive Cards&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Screenshots/Screenshot_20190122-155302_AttendAR.jpg?raw=true&quot; alt=&quot;User Login&quot; title=&quot;User Login&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;built-in-user-manager&quot;&gt;Built-In User Manager&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Screenshots/Screenshot_20190122-155332_AttendAR.jpg?raw=true&quot; alt=&quot;User Manager&quot; title=&quot;User Manager&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;view-and-modify-user-details&quot;&gt;View and Modify User Details&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Screenshots/Screenshot_20190122-155458_AttendAR.jpg?raw=true&quot; alt=&quot;User Details&quot; title=&quot;User Details&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;delete-users&quot;&gt;Delete Users&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Screenshots/Screenshot_20190122-155531_AttendAR.jpg?raw=true&quot; alt=&quot;Delete User&quot; title=&quot;Delete User&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Jan 2019 19:00:00 -0500</pubDate>
+        <link>https://thatxrguy.com//attendar</link>
+        <guid isPermaLink="true">https://thatxrguy.com//attendar</guid>
+        
+        <category>attendar</category>
+        
+        <category>face recognition</category>
+        
+        <category>mobile</category>
+        
+        <category>app</category>
+        
+        <category>android</category>
+        
+        <category>unity</category>
+        
+        <category>cognitive services</category>
+        
+        <category>azure</category>
+        
+        <category>c#</category>
+        
+        <category>ar</category>
+        
+        <category>computer vision</category>
+        
+        
+        <category>ar,</category>
+        
+        <category>mobile,</category>
+        
+        <category>desktop,</category>
+        
+        <category>android,</category>
+        
+        <category>arcore,</category>
+        
+        <category>computer</category>
+        
+        <category>vision</category>
+        
+      </item>
+    
+  </channel>
+</rss>
