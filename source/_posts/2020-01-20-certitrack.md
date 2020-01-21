@@ -28,11 +28,10 @@ tags:
     }
 </style>
 
+
 My experience with WordPress is quite varied. Whether it's constructing pixel-perfect pages based on illustrated designs, or webserver malware removal and site recovery, I've been around the WordPress block a few times.
 
-
 ---
-
 
 <span style="font-weight: bold">
     Check out the <a href="https://certitrack-demo.azurewebsites.net/" target="_blank">demo app</a> and <a href="https://github.com/ThatChocolateGuy/Certitrack" target="_blank">repo</a>. Credentials below:
