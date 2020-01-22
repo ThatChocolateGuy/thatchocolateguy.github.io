@@ -30,18 +30,18 @@ tags:
 </style>
 
 <p style="margin-top: 10px">
-    Certitrack is a fairly simple, yet relationally complex Gift Certificate Management System (GCMS). Users can issue, track, delete, and redeem certificates - suitable for any organization or team.
+    Certitrack is a fairly simple, yet relationally complex Gift Certificate Management System (GCMS). Issue, track, edit, delete, and redeem certificates. Easily manage staff, clients and much more. Suitable for any organization or team.
 </p>
 
-Built with Microsoft's .NET Core stack, this project leverages the power of a robust and secure relational SQL database.
+Built with Microsoft's .NET Core stack, Certitrack leverages the power of a robust and secure relational SQL database.
   
-This server-rendered app uses the Bootstrap-based AdminLTE, along with AJAX requests where possible, resulting in a highly responsive and fast user experience (UX). Certitrack is currently being reworked into separate backend and frontend services to provide an even smoother UX.
+This server-rendered app uses the Bootstrap-based AdminLTE frontend framework, along with AJAX requests where possible, yielding a fast and highly responsive user experience (UX). Certitrack is currently being reworked into separate backend (.NET Core Web API) and frontend (Vue.js) services to provide an even smoother UX.
 
 ---
 
 ### Backstory
 
-During the final few months of my college program my class was starting to explore advanced .NET Core development. Our instructor approached me, sharing that there was a request for her to build an application for the head of the Massage Therapy Department at the college.
+In the final few months of college, my class was beginning to explore advanced .NET Core development. Our instructor approached me (as her strongest student at the time), sharing that there was a request to build an application for the head of the Massage Therapy Department at the college.
   
 He was in need of a robust web app that could help his department go paperless with their gift certificate issuing and tracking system. It was new, intimidating, and I had no idea how to make it happen. "Challenge Accepted" was what I replied with. Here we are today.
 
