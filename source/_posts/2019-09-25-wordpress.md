@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WordPress Websites
+title: WordPress
 permalink: wordpress
 date: 2019-09-25T21:00:56.000Z
 image: /images/wordpress-banner.jpg

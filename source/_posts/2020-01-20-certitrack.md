@@ -5,7 +5,7 @@ permalink: certitrack
 date: 2020-01-20T11:44:01.000Z
 comments: false
 description: certitrack
-image: /images/gift-certificate.png
+image: /images/certitrack.png
 keywords: >-
   gift certificate management system, gcms, c#, .net, .net core, asp.net, azure,
   cloud, ci/cd, enterprise, web app, web application
@@ -22,6 +22,11 @@ tags:
 ---
 
 <style>
+    .cred-spacing {
+      display: grid;
+      grid-gap: 6px;
+      grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    }
     .credentials {
         text-decoration: none;
         color: #265C8D;
@@ -48,16 +53,18 @@ He was in need of a robust web app that could help his department go paperless w
 ---
 
 
-### Check out the <a href="https://certitrack-demo.azurewebsites.net/" target="_blank">demo app</a> and <a href="https://github.com/ThatChocolateGuy/Certitrack" target="_blank">repo</a>
+### Check out the <a href="https://certitrack-gcms-demo.azurewebsites.net/" target="_blank">demo app</a> and <a href="https://github.com/ThatChocolateGuy/Certitrack" target="_blank">repo</a>
 ### <small>Login Credentials:</small>
 
+<div class="cred-spacing">
+  <div>
+    <div>U: <span class="credentials">admin@certitrack.com</span></div>
+    <div>P: <span class="credentials">admin123</span></div>
+  </div>
+  <div>
+    <div>U: <span class="credentials">nonadmin@certitrack.com</span></div>
+    <div>P: <span class="credentials">nonadmin</span></div>
+  </div>
+</div>
 
-U: <span class="credentials">admin@certitrack.com</span>
-P: <span class="credentials">admin123</span>
-
-
-U: <span class="credentials">nonadmin@certitrack.com</span>
-P: <span class="credentials">nonadmin</span>
-
-
-<sub>Note: Refresh page if app doesn't load correctly the first time.</sub>
+<sub><strong>Note:</strong> Please be patient as app may take some time to cold boot. Certitrack is hosted on a serverless Azure instance with auto-pausing db to conserve resources and save on overhead costs. This stuff ain't cheap!</sub>
