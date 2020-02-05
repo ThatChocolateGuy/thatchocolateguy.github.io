@@ -1,1 +1,0 @@
-Development repository for my portfolio website
