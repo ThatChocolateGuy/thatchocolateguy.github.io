@@ -46,7 +46,7 @@ Whether it's constructing pixel-perfect pages based on illustrated designs, or w
 <br class="br-desktop">
 <hr class="hr-mobile">
 
-Swipe / scroll or tap / click on the grid icon at the bottom-right of the window below to check out some **client sites I've worked on**:
+Swipe / scroll over the window below, or tap / click on the grid icon at the bottom-right to check out some **client sites I've worked on**:
 
 {% include wordpress.html %}
 
