@@ -40,7 +40,7 @@ tags:
 
 Built with Microsoft's .NET Core stack, Certitrack leverages the power of a robust and secure relational SQL database.
   
-This server-rendered app uses the Bootstrap-based AdminLTE frontend framework, along with AJAX requests where possible, yielding a fast and highly responsive user experience (UX). Certitrack is currently being reworked into separate backend (.NET Core Web API) and frontend (Vue.js) services to provide an even smoother UX.
+This server-rendered app uses the Bootstrap-based AdminLTE frontend framework, along with AJAX requests where possible, yielding a fast and highly responsive user experience (UX). Certitrack is Dockerized and deployed with Azure Pipleines (CI/CD).
 
 ---
 
@@ -61,10 +61,11 @@ He was in need of a robust web app that could help his department go paperless w
     <div>U: <span class="credentials">admin@certitrack.com</span></div>
     <div>P: <span class="credentials">admin123</span></div>
   </div>
-  <div>
+    <div>
     <div>U: <span class="credentials">nonadmin@certitrack.com</span></div>
     <div>P: <span class="credentials">nonadmin</span></div>
   </div>
 </div>
 
-<sub><strong>Note:</strong> Please be patient as app may take some time to cold boot. Certitrack is hosted on a serverless Azure instance with auto-pausing db to conserve resources and save on overhead costs. This stuff ain't cheap!</sub>
+<sub><strong>Note:</strong> Please be patient as app may take some time to cold boot. Certitrack's database is hosted on an Azure server instance with auto-pausing db to conserve resources and save on overhead costs. This stuff ain’t cheap!</sub>
+
