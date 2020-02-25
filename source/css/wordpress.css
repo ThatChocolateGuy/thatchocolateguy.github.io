@@ -220,6 +220,14 @@ body {
     left: -20px
 }
 
+.thumb p.eq5 {
+    background-image: url(/images/wp-mavenpharm.png)
+}
+
+.slide.eq5,.thumb p.eq5 {
+    background-color: #fff
+}
+
 .thumb p.expand.eq5 {
     top: -20px;
     left: -40px
@@ -398,9 +406,17 @@ body {
     color: #ffbf14
 }
 
-.slide.eq5 path,.slide.eq5 span,.slide.eq5 strong {
+/* .slide.eq5 path,.slide.eq5 span,.slide.eq5 strong {
     fill: #fff;
     background-color: #fff
+} */
+
+.slide.eq5 span {
+    color: #636363
+}
+
+.slide.eq5 strong {
+    color: #00C6CB
 }
 
 .slide.eq6 path,.slide.eq6 span,.slide.eq6 strong {

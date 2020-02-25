@@ -109,7 +109,7 @@ $(document).ready(function () {
     } else if ($(this)[0].scrollTop >= 1600 && $(this)[0].scrollTop <= 2100) {
       $("#espose p").css("border-color", "#82b4eb");
     } else if ($(this)[0].scrollTop >= 2100 && $(this)[0].scrollTop <= 2600) {
-      $("#espose p").css("border-color", "#fff");
+      $("#espose p").css("border-color", "#7aaec3");
     }
   });
 
@@ -157,24 +157,24 @@ $(document).ready(function () {
             function () {
               var scrolltop = 0;
               if (index == 0) {
-                sctolltop = 0;
+                scrolltop = 0;
               } else if (index == 1) {
-                sctolltop = 516;
+                scrolltop = 516;
               } else if (index == 2) {
-                sctolltop = 1032;
+                scrolltop = 1032;
               } else if (index == 3) {
-                sctolltop = 1548;
+                scrolltop = 1548;
               } else if (index == 4) {
-                sctolltop = 2064;
+                scrolltop = 2064;
               } else if (index == 5) {
-                sctolltop = 2580;
+                scrolltop = 2580;
               } else if (index == 6) {
-                sctolltop = 3096;
+                scrolltop = 3096;
               }
               isScrolling = 1;
               $("#bootstrap-carousel")
                 .show()
-                .scrollTo(sctolltop, { duration: 0 });
+                .scrollTo(scrolltop, { duration: 0 });
               $("#cloneWrap").fadeOut(200, function () {
                 $("#cloneWrap").remove();
               });

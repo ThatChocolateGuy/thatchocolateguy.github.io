@@ -53,7 +53,7 @@ He was in need of a robust web app that could help his department go paperless w
 ---
 
 
-### Check out the <a href="https://certitrack-gcms-demo.azurewebsites.net/" target="_blank">demo app</a> and <a href="https://github.com/ThatChocolateGuy/Certitrack" target="_blank">repo</a>
+### Check out the <a href="https://certitrack.azurewebsites.net/" target="_blank">demo app</a> and <a href="https://github.com/ThatChocolateGuy/Certitrack" target="_blank">repo</a>
 ### <small>Login Credentials:</small>
 
 <div class="cred-spacing">

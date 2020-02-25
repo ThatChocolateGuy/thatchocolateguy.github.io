@@ -24,14 +24,20 @@ tags:
 ---
 
 <style>
-  @media only screen and (max-width: 767px) {
-    .br-desktop {
-      display: none;
+  .desktop-normal, .desktop-large, .break-large {
+    display: none;
+  }
+  @media only screen and (max-width: 825px) {
+    .desktop-normal {
+      display: block;
     }
   }
-  @media only screen and (min-width: 768px) {
-    .hr-mobile {
-      display: none;
+  @media only screen and (min-width: 826px) {
+    .desktop-large {
+      display: block;
+    }
+    .break-large {
+      display: block;
     }
   }
 </style>
@@ -43,10 +49,18 @@ tags:
 
 Whether it's constructing pixel-perfect pages based on illustrated designs, or webserver malware removal and site recovery, I've been around the WordPress block a few times.
 
-<br class="br-desktop">
-<hr class="hr-mobile">
 
-Swipe / scroll over the window below, or tap / click on the grid icon at the bottom-right to check out some **client sites I've worked on**:
+<div class="desktop-normal">
+  Swipe / scroll through the window below, or select the grid icon (bottom-right) to check out some <span style="font-weight: bold;">client sites I've worked on:</span>
+</div>
+
+
+<div class="desktop-large">
+  Swipe / scroll through the window below, or select the grid icon (bottom-right) to check out some...
+  <br class="break-large">
+  <span style="font-weight: bold;">client sites I've worked on:</span>
+</div>
+
 
 {% include wordpress.html %}
 
