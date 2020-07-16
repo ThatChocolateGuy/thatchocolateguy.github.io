@@ -1,0 +1,19 @@
+@import "variables";
+
+$primary-color-80: rgba(51, 122, 183, .8);
+
+::selection {
+	background: $primary-color-80;
+	color: white;
+}
+
+.logo {
+	strong {
+		color: $primary-color-80;
+	}
+	&:hover {
+		strong {
+			color: $primary-color;
+		}
+	}
+}

@@ -25,10 +25,10 @@ sass:
   style: compressed # expanded
 
 # SEO settings
-title: ThatXRGuy
-description: "I evoke emotion with code"
-keywords: "thatxrguy, xrguy, xr, nem, developer, code, software, apps, application, web, mobile, dev, thatchocolateguy, github, full stack, full-stack, front-end, front end, developer, development, web developer, web development, full stack developer, full-stack developer"
-url: https://thatxrguy.com/
+title: nem.codes
+description: "Evoking emotion with code"
+keywords: "thatxrguy, xrguy, nem.codes, xr, vr, ar, mixed reality, virtual reality, augmented reality, spatial computing, nem, nemo, developer, code, software, apps, application, web, mobile, dev, thatchocolateguy, github, full stack, full-stack, front-end, front end, developer, development, web developer, web development, full stack developer, full-stack developer, .NET, .NET developer"
+url: https://nem.codes/
 baseurl: ""
 
 google_analytics: UA-135143182-1
@@ -40,10 +40,10 @@ repo: http://github.com/ThatChocolateGuy
 author:
   name: Nem Ekpunobi
   job: Full Stack Developer
-  bio: "I evoke emotion with code. Spatial computing enthusiast, interaction design and usability buff; always looking for the best project and good bubble tea."
+  bio: "Spatial computing enthusiast, interaction design and usability buff; always looking for the best project and good bubble tea."
   thumb: /images/author.png
   email: nemx14@gmail.com
-  url: https://thatxrguy.com/
+  url: https://nem.codes/
   github: https://github.com/ThatChocolateGuy
   twitter: https://twitter.com/thatchocobro
   instagram: https://instagram.com/thatchocolateguy
