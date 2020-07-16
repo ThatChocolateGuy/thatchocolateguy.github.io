@@ -1,0 +1,62 @@
+encoding: utf-8
+
+# Build settings
+permalink: /projects/:year/:title/
+markdown: kramdown
+highlighter: pygments
+plugins: [jekyll-paginate-v2]
+
+autopages:
+  enabled: false
+
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: "/page/:num/"
+  sort_field: "date"
+  sort_reverse: true
+
+comments: false
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: nem.codes
+description: "Evoking emotion with code"
+keywords: "thatxrguy, xrguy, nem.codes, xr, vr, ar, mixed reality, virtual reality, augmented reality, spatial computing, nem, nemo, developer, code, software, apps, application, web, mobile, dev, thatchocolateguy, github, full stack, full-stack, front-end, front end, developer, development, web developer, web development, full stack developer, full-stack developer, .NET, .NET developer"
+url: https://nem.codes/
+baseurl: ""
+
+google_analytics: UA-135143182-1
+repo: http://github.com/ThatChocolateGuy
+#disqus_shortname: "thatchocolateguy"
+#disqus_site_shortname: "thatchocolateguy"
+
+# Author settings
+author:
+  name: Nem Ekpunobi
+  job: Full Stack Developer
+  bio: "Spatial computing enthusiast, interaction design and usability buff; always looking for the best project and good bubble tea."
+  thumb: /images/author.png
+  email: nemx14@gmail.com
+  url: https://nem.codes/
+  github: https://github.com/ThatChocolateGuy
+  twitter: https://twitter.com/thatchocobro
+  instagram: https://instagram.com/thatchocolateguy
+  facebook: https://facebook.com/thatchocolateguy
+  linkedin: https://linkedin.com/in/grow-with-nem
+
+# navbar pages
+navbar:
+#  - slug: about
+#    title: About
+#  - slug: icons
+#    title: Icons
+  - slug: projects
+    title: Projects
+
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
