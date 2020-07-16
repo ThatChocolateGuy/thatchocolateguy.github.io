@@ -8,7 +8,7 @@ require "bourbon"
 # Change your GitHub reponame
 GITHUB_REPONAME = "ThatChocolateGuy/thatchocolateguy.github.io"
 GITHUB_REPO_BRANCH = "master"
-GITHUB_CUSTOM_DOMAIN = "thatxrguy.com"
+GITHUB_CUSTOM_DOMAIN = "nem.codes"
 
 SOURCE = "source/"
 DEST = "_site"
