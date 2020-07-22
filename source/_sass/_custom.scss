@@ -3,6 +3,7 @@
 $primary-color-80: rgba(51, 122, 183, .8);
 $global-transition: .3s ease all;
 
+// Selection Highlight
 ::selection {
 	background: $primary-color-80;
 	color: white;
@@ -23,11 +24,24 @@ body, div, a {
 	}
 }
 
-#toggleNavbar:checked ~ .logo a, #toggleNavbar:checked ~ .logo span {
-	&:hover {
-		opacity: .7;
+// Hero Logo
+.hero-inner {
+	h1 {
+		font-weight: initial;
 	}
-	strong {
-		color: #fff !important;
+	h3 > .bio {
+		text-transform: lowercase;
+	}
+}
+
+// Mobile Menu Logo
+#toggleNavbar:checked ~ .logo {
+	a, span {
+		&:hover {
+			opacity: .7;
+		}
+		strong {
+			color: #fff !important;
+		}
 	}
 }
