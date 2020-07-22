@@ -10,6 +10,9 @@ $primary-color-80: rgba(51, 122, 183, .8);
 .logo {
 	strong {
 		color: $primary-color-80;
+		@media screen and (max-width:767px) {
+			color: white;
+		}
 	}
 	&:hover {
 		strong {
