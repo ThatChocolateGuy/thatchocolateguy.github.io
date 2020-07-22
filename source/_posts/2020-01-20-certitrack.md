@@ -25,7 +25,7 @@ tags:
     .cred-spacing {
       display: grid;
       grid-gap: 6px;
-      grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     }
     .credentials {
       text-decoration: none;
