@@ -17,3 +17,7 @@ $primary-color-80: rgba(51, 122, 183, .8);
 		}
 	}
 }
+
+#toggleNavbar:checked ~ .logo a, #toggleNavbar:checked ~ .logo span {
+    color: #fff !important;
+}
