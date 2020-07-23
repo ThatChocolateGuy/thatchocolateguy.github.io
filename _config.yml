@@ -51,6 +51,11 @@ author:
   facebook: https://facebook.com/thatchocolateguy
   linkedin: https://linkedin.com/in/grow-with-nem
 
+# Project post settings
+projects:
+  ext-links:
+    ct-demo: https://certitrack.nem.codes/
+
 # navbar pages
 navbar:
 #  - slug: about

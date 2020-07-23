@@ -46,14 +46,22 @@ This server-rendered app uses the Bootstrap-based AdminLTE frontend framework, w
 
 ### Backstory
 
-In the final few months of college, my class was beginning to explore advanced .NET Core development. Our instructor approached me (as her strongest student at the time), sharing that there was a request to build an application for the head of the college's Massage Therapy Department.
+Towards the end of my formal webdev education, we had begun to explore advanced .NET Core development. Our instructor approached me (her strongest student at the time), sharing that there was a request to build an application for the college's Massage Therapy Department.
   
-He was in need of a robust web app that could help his department go paperless with their gift certificate issuing and tracking system. It was new, intimidating, and I had no idea how to make it happen. "Challenge Accepted" was what I replied with. Here we are today.
+The head therapist was in need of a robust web app that could help his department take their GCMS paperless. It was new, intimidating, and I had no idea how to make it happen. "Challenge Accepted" was my reply. Here we are today.
 
 ---
 
+### Dashboard Screenshot
 
-### Check out the <a href="https://certitrack.nem.codes/" target="_blank">demo app</a> and <a href="https://github.com/ThatChocolateGuy/Certitrack" target="_blank">repo</a>
+<div class="ct-demo-img">
+  <img class="desktop" src="Screenshots/ct-demo.png" title="certitrack dashboard">
+  <img class="mobile" src="Screenshots/ct-demo-mobile.png" title="certitrack dashboard">
+</div>
+
+---
+
+### Check out the <a href="{{ site.projects.ext-links.ct-demo }}" target="_blank">demo app</a> and <a href="{{ site.author.github }}" target="_blank">repo</a>
 ### <small>Login Credentials:</small>
 
 <div class="cred-spacing">
@@ -61,7 +69,7 @@ He was in need of a robust web app that could help his department go paperless w
     <div>U: <span class="credentials">admin@certitrack.com</span></div>
     <div>P: <span class="credentials">admin123</span></div>
   </div>
-    <div>
+  <div>
     <div>U: <span class="credentials">nonadmin@certitrack.com</span></div>
     <div>P: <span class="credentials">nonadmin</span></div>
   </div>

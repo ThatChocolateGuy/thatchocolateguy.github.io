@@ -2,6 +2,7 @@
 
 $primary-color-80: rgba(51, 122, 183, .8);
 $global-transition: .3s ease all;
+$breakpoint-mobile-max: 767px;
 
 // Selection Highlight
 ::selection {
@@ -42,6 +43,23 @@ body, div, a {
 		}
 		strong {
 			color: #fff !important;
+		}
+	}
+}
+
+// Certitrack Demo Screenshots (Certitrack Post)
+.ct-demo-img {
+	.desktop, .mobile {
+		display: none;
+	}
+	@media screen and (max-width: $breakpoint-mobile-max) {
+		.mobile {
+			display: block;
+		}
+	}
+	@media screen and (min-width: 1px + $breakpoint-mobile-max) {
+		.desktop {
+			display: block;
 		}
 	}
 }
