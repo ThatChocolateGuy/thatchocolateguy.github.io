@@ -61,7 +61,7 @@ The head therapist was in need of a robust web app that could help his departmen
 
 ---
 
-### Check out the <a href="{{ site.projects.ext-links.ct-demo }}" target="_blank">demo app</a> and <a href="{{ site.author.github }}" target="_blank">repo</a>
+### Check out the <a href="{{ site.projects.ext-links.ct-demo }}" target="_blank">demo app</a> and <a href="{{ site.author.github }}/Certitrack" target="_blank">repo</a>
 ### <small>Login Credentials:</small>
 
 <div class="cred-spacing">

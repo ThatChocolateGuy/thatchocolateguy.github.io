@@ -49,7 +49,7 @@ Sometimes it's not worthwhile to write an automation script to handle every edge
 
 ---
 
-### <a href="https://github.com/ThatChocolateGuy/CSS-Snippet-Generator" target="_blank">Check out the repo</a>
+### <a href="{{ site.author.github }}/CSS-Snippet-Generator" target="_blank">Check out the repo</a>
 
 This project utilizes the <a href="https://github.com/google/code-prettify" target="_blank">prettify.js</a> library by Google and <a href="https://github.com/google/code-prettify/blob/master/styles/sunburst.css" target="_blank">Vim Sunburst Theme</a> by David Leibovic.
 
