@@ -64,7 +64,7 @@ task :post do
   env_tags = ENV["tags"] || ""
   tags = strtag(env_tags)
 
-  # categorias
+  # categories
   env_cat = ENV["category"] || ""
   categories = strtag(env_cat)
 
