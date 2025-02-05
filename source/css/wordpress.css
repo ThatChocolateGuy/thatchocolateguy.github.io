@@ -62,15 +62,15 @@ body {
 }
 
 #window {
-    margin: 45px auto 0;
+    margin: 15px auto 0;
     border-radius: 6px;
     background-color: #234871;
     width: 100%;
-    max-width: 678px;
     min-height: 549px;
     overflow: hidden;
     position: relative;
-    text-align: center
+    text-align: center;
+    outline: lightgrey 1px solid;
 }
 
 #header {

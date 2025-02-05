@@ -27,7 +27,7 @@ sass:
 # SEO settings
 title: nem.codes
 description: "Evoking Emotion with Code"
-keywords: "thatxrguy, xrguy, nem.codes, xr, vr, ar, mixed reality, virtual reality, augmented reality, spatial computing, nem, nemo, developer, code, software, apps, application, web, mobile, dev, thatchocolateguy, github, full stack, full-stack, front-end, front end, developer, development, web developer, web development, full stack developer, full-stack developer, .NET, .NET developer"
+keywords: "thatxrguy, xrguy, nem.codes, xr, vr, ar, mixed reality, virtual reality, augmented reality, spatial computing, nem, nemo, developer, code, software, apps, application, web, mobile, dev, thatchocolateguy, github, full stack, full-stack, front-end, front end, developer, development, web developer, web development, full stack developer, full-stack developer, full stack engineer, full-stack engineer, full stack, .NET, .NET developer"
 url: https://nem.codes/
 baseurl: ""
 
@@ -40,7 +40,7 @@ repo: http://github.com/ThatChocolateGuy
 author:
   name: Nem Ekpunobi
   nickname: Nemo
-  job: Full Stack Developer
+  job: Full Stack Engineer
   bio: "Spatial computing enthusiast, and interaction design buff; always looking for the best project and good bubble tea."
   thumb: /images/author.png
   email: nemx14@gmail.com
