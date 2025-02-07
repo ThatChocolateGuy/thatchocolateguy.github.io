@@ -13,7 +13,7 @@ autopages:
 
 pagination:
   enabled: true
-  per_page: 3
+  per_page: 2
   permalink: "/page/:num/"
   sort_field: "date"
   sort_reverse: true

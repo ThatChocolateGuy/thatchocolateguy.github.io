@@ -1,4 +1,5 @@
 @import "variables";
+@import "about";
 
 $primary-color-80: rgba(51, 122, 183, .8);
 $global-transition: .3s ease all;
@@ -10,7 +11,21 @@ $breakpoint-mobile-max: 767px;
 	color: white;
 }
 
-body, div, a {
+body {
+	border: none;
+	display: flex;
+	flex-direction: column;
+
+	@media screen and (max-width: $breakpoint-mobile-max) {
+		display: table;
+	}
+
+	@media screen and (min-width: (1px + $breakpoint-mobile-max)) {}
+}
+
+body,
+div,
+a {
 	transition: $global-transition;
 }
 
@@ -18,6 +33,7 @@ body, div, a {
 	strong {
 		color: $primary-color-80;
 	}
+
 	&:hover {
 		strong {
 			color: $primary-color;
@@ -27,20 +43,30 @@ body, div, a {
 
 // Hero Logo
 .hero-inner {
+	width: 100%;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+
 	h1 {
 		font-weight: initial;
 	}
-	h3 > .bio {
+
+	h3>.bio {
 		text-transform: lowercase;
 	}
 }
 
 // Mobile Menu Logo
-#toggleNavbar:checked ~ .logo {
-	a, span {
+#toggleNavbar:checked~.logo {
+
+	a,
+	span {
 		&:hover {
 			opacity: .7;
 		}
+
 		strong {
 			color: #fff !important;
 		}
@@ -49,17 +75,71 @@ body, div, a {
 
 // Certitrack Demo Screenshots (Certitrack Post)
 .ct-demo-img {
-	.desktop, .mobile {
+
+	.desktop,
+	.mobile {
 		display: none;
 	}
+
 	@media screen and (max-width: $breakpoint-mobile-max) {
 		.mobile {
 			display: block;
 		}
 	}
-	@media screen and (min-width: 1px + $breakpoint-mobile-max) {
+
+	@media screen and (min-width: (1px + $breakpoint-mobile-max)) {
 		.desktop {
 			display: block;
 		}
 	}
 }
+
+.main-container {
+	background: transparent;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+
+	@media screen and (min-width: (1px + $breakpoint-mobile-max)) {
+		height: -webkit-fill-available;
+		margin-top: 75px;
+	}
+}
+
+.site-header {
+	padding: 2rem auto;
+
+	@media screen and (min-width: (1px + $breakpoint-mobile-max)) {
+		position: fixed;
+	}
+}
+
+section.hero {
+	border-top: 5px solid #337ab7;
+	display: flex;
+}
+
+// misc mobile styles
+@media screen and (max-width: $breakpoint-mobile-max) {
+	.social {
+		padding: 0.5em 0;
+		margin: auto;
+
+		i {
+			font-size: 1.4rem;
+		}
+	}
+
+	footer {
+		position: sticky;
+		bottom: 0;
+
+		p.txt-medium-gray {
+			display: none;
+		}
+	}
+}
+
+// misc desktop styles
+@media screen and (min-width: (1px + $breakpoint-mobile-max)) {}
