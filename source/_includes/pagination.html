@@ -1,6 +1,6 @@
 {% if paginator.total_pages > 1 %}
 <nav class="pagination" role="pagination">
-  <ul style="padding-left: 0;"
+  <ul>
     {% assign url = site.baseurl | append: "/projects/" %}
     {% if paginator.previous_page %}
       {% if paginator.previous_page > 1 %}

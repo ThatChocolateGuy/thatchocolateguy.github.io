@@ -4,6 +4,7 @@
 $primary-color-80: rgba(51, 122, 183, .8);
 $global-transition: .3s ease all;
 $breakpoint-mobile-max: 767px;
+$background-translucent: rgba(255, 255, 255, 0.1);
 
 // Selection Highlight
 ::selection {
@@ -95,20 +96,19 @@ a {
 }
 
 .main-container {
-	background: transparent;
+	background: $background-translucent;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	height: 100%;
 
 	@media screen and (min-width: (1px + $breakpoint-mobile-max)) {
 		height: -webkit-fill-available;
-		margin-top: 75px;
 	}
 }
 
 .site-header {
-	padding: 2rem auto;
+	position: sticky !important;
+    top: 0;
 
 	@media screen and (min-width: (1px + $breakpoint-mobile-max)) {
 		position: fixed;
@@ -116,8 +116,14 @@ a {
 }
 
 section.hero {
+	background: $background-translucent;
 	border-top: 5px solid #337ab7;
 	display: flex;
+}
+
+.pagination>ul {
+	padding-left: 0;
+	margin: auto;
 }
 
 // misc mobile styles
