@@ -1,28 +1,43 @@
-importScripts("https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js", "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js")
+$(document).ready(function () {
+    // Define helper function
+    $.js = function (el) {
+        return $("[data-js=" + el + "]");
+    };
 
-$.js = function (el) {
-    return $("[data-js=" + el + "]");
-};
-
-function carousel() {
-    $.js("timeline-carousel").slick({
-        infinite: false,
-        arrows: false,
-        dots: true,
-        autoplay: false,
-        speed: 1100,
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        responsive: [
-            {
-                breakpoint: 800,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+    // Define carousel initialization
+    function carousel() {
+        $.js("timeline-carousel").slick({
+            infinite: false,
+            arrows: false,
+            dots: true,
+            autoplay: false,
+            speed: 800,
+            slidesToShow: 3,
+            slidesToScroll: 2,
+            accessibility: true,
+            adaptiveHeight: true,
+            edgeFriction: 0.1,
+            // mobileFirst: true,
+            responsive: [
+                {
+                    breakpoint: 1400,
+                    settings: {
+                        arrows: false,
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }, {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    },
                 }
-            }
-        ]
-    });
-}
+            ]
+        });
+    }
 
-carousel(); 
+    // Initialize the carousel
+    carousel();
+});

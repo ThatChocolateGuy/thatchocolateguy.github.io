@@ -58,10 +58,13 @@ projects:
   ext-links:
     ct-demo: https://certitrack.nem.codes/
 
+# timeline content
+timeline:
+
 # navbar pages
 navbar:
-#  - slug: about
-#    title: About
+  - slug: about
+    title: About
 #  - slug: icons
 #    title: Icons
   - slug: projects

@@ -14,7 +14,7 @@ $main-color: #337ab7;
 
 //Timeline
 .timeline-carousel {
-   padding: 86px 6.9444% 90px 6.9444%;
+   padding: 0 6.9444% 0 6.9444%;
    position: relative;
    overflow: hidden;
    &:after,
@@ -40,7 +40,12 @@ $main-color: #337ab7;
       overflow: visible;
    }
    .slick-dots {
-      bottom: -73px;
+      position: initial;
+      padding: initial;
+   }
+   .slick-slider {
+      display: flex;
+      flex-direction: column;
    }
    h1 {
     color: $black;
