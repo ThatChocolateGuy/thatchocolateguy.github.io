@@ -17,6 +17,7 @@ $main-color: #337ab7;
    padding: 0 6.9444% 0 6.9444%;
    position: relative;
    overflow: hidden;
+
    &:after,
    &:before {
       content: "";
@@ -29,36 +30,92 @@ $main-color: #337ab7;
       z-index: 3;
       width: 6.9444%;
    }
+
    &:after {
       left: 0;
    }
+
    &:before {
       right: 0;
       opacity: 0;
    }
+
    .slick-list {
       overflow: visible;
    }
+
    .slick-dots {
+      bottom: 60px;
+      list-style: none;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      text-align: center;
+      z-index: 2;
       position: initial;
       padding: initial;
+      margin: auto;
+
+      li {
+         cursor: pointer;
+         display: inline-block;
+         margin: 0 6px;
+         position: relative;
+         width: 10px;
+         height: 10px;
+
+         &:last-child {
+            margin-right: 0;
+         }
+
+         &.slick-active {
+            button {
+               background: $main-color;
+               border-color: $main-color;
+            }
+         }
+
+         button {
+            display: block;
+            font-size: 0;
+            width: 10px;
+            height: 10px;
+            padding: 0;
+            background-color: $black-60;
+            border-color: $black-60;
+            cursor: pointer;
+            -webkit-transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+            -o-transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+            transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+
+            &:hover {
+               background: $main-color;
+               border-color: $main-color;
+            }
+         }
+      }
    }
+
    .slick-slider {
       display: flex;
       flex-direction: column;
    }
+
    h1 {
-    color: $black;
-    font-size: 2em;
-    line-height: 50pd;
-    margin-bottom: 40px;
-    font-weight: 700;
+      color: $primary-color;
+      font-size: 2em;
+      line-height: 50pd;
+      margin-bottom: 40px;
+      font-weight: 700;
    }
+
    &__image {
       padding-right: 30px;
    }
+
    &__item {
       cursor: pointer;
+
       .media-wrapper {
          opacity: 0.4;
          padding-bottom: 71.4%;
@@ -66,6 +123,7 @@ $main-color: #337ab7;
          -o-transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
          transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
       }
+
       &:last-child {
          .timeline-carousel__item-inner {
             &:after {
@@ -74,9 +132,11 @@ $main-color: #337ab7;
          }
       }
    }
+
    &__item-inner {
       position: relative;
       padding-top: 45px;
+
       &:after {
          position: absolute;
          width: 100%;
@@ -85,18 +145,20 @@ $main-color: #337ab7;
          content: "";
          border-bottom: 1px solid $black-20;
       }
+
       .year {
          font-size: 36px;
          line-height: 36px;
-         color: lightgrey;
+         color: $white-color;
          display: table;
          letter-spacing: -1px;
          padding-right: 10px;
-         background-color: $black;
+         background-color: $primary-color;
          z-index: 1;
          position: relative;
          margin: -15px 0 20px;
          font-weight: 900;
+
          &:after {
             content: "";
             position: absolute;
@@ -105,10 +167,11 @@ $main-color: #337ab7;
             top: 0;
             height: 100%;
             width: 10px;
-            background-color: $black;
+            background-color: $primary-color;
             z-index: 3;
          }
       }
+
       .month {
          font-size: 12px;
          text-transform: uppercase;
@@ -117,13 +180,14 @@ $main-color: #337ab7;
          margin-bottom: 10px;
          font-weight: 900;
       }
+
       p {
          font-size: 12px;
          line-height: 18px;
          color: $black;
-         width: 70%;
          font-weight: 400;
          margin-bottom: 15px;
+         padding-right: 1.5rem;
       }
 
       .read-more {
@@ -134,6 +198,7 @@ $main-color: #337ab7;
          font-weight: 900;
          text-decoration: none;
          position: relative;
+
          &:after {
             content: "";
             position: absolute;
@@ -145,22 +210,26 @@ $main-color: #337ab7;
             -o-transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
             transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
          }
+
          &:hover {
             &:after {
                width: 100%;
             }
          }
       }
+
       .pointer {
          height: 29px;
          position: relative;
          z-index: 1;
          margin: -4px 0 16px;
+
          &:after,
          &:before {
             position: absolute;
             content: "";
          }
+
          &:after {
             width: 9px;
             height: 9px;
@@ -169,6 +238,7 @@ $main-color: #337ab7;
             left: 0;
             background-color: $main-color;
          }
+
          &:before {
             width: 1px;
             height: 100%;
@@ -182,50 +252,6 @@ $main-color: #337ab7;
    .slick-active {
       .media-wrapper {
          opacity: 1 !important;
-      }
-   }
-}
-
-.slick-dots {
-   bottom: 60px;
-   list-style: none;
-   position: absolute;
-   width: 100%;
-   left: 0;
-   text-align: center;
-   z-index: 2;
-   li {
-      cursor: pointer;
-      display: inline-block;
-      margin: 0 6px;
-      position: relative;
-      width: 10px;
-      height: 10px;
-      &:last-child {
-         margin-right: 0;
-      }
-      &.slick-active {
-         button {
-            background: $main-color;
-            border-color: $main-color;
-         }
-      }
-      button {
-         display: block;
-         font-size: 0;
-         width: 10px;
-         height: 10px;
-         padding: 0;
-         background-color: $black-60;
-         border-color: $black-60;
-         cursor: pointer;
-         -webkit-transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-         -o-transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-         transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-         &:hover {
-            background: $main-color;
-            border-color: $main-color;
-         }
       }
    }
 }

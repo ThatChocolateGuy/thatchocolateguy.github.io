@@ -14,12 +14,11 @@ $background-translucent: rgba(255, 255, 255, 0.1);
 
 body {
 	border: none;
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	align-content: space-between;
+	grid-template-rows: auto 1fr auto;
 
-	@media screen and (max-width: $breakpoint-mobile-max) {
-		display: table;
-	}
+	@media screen and (max-width: $breakpoint-mobile-max) {}
 
 	@media screen and (min-width: (1px + $breakpoint-mobile-max)) {}
 }
@@ -49,6 +48,7 @@ a {
 	text-align: center;
 	flex-direction: column;
 	justify-content: center;
+	gap: 1rem;
 
 	h1 {
 		font-weight: initial;
@@ -97,18 +97,18 @@ a {
 
 .main-container {
 	background: $background-translucent;
-	display: flex;
-	flex-direction: column;
+	display: grid;
 	justify-content: space-around;
+	align-items: center;
 
-	@media screen and (min-width: (1px + $breakpoint-mobile-max)) {
-		height: -webkit-fill-available;
-	}
+	@media screen and (max-width: $breakpoint-mobile-max) {}
+
+	@media screen and (min-width: (1px + $breakpoint-mobile-max)) {}
 }
 
 .site-header {
 	position: sticky !important;
-    top: 0;
+	top: 0;
 
 	@media screen and (min-width: (1px + $breakpoint-mobile-max)) {
 		position: fixed;
@@ -119,6 +119,7 @@ section.hero {
 	background: $background-translucent;
 	border-top: 5px solid #337ab7;
 	display: flex;
+	height: auto;
 }
 
 .pagination>ul {
@@ -126,11 +127,15 @@ section.hero {
 	margin: auto;
 }
 
+.social {
+	margin: inherit;
+}
+
 // misc mobile styles
 @media screen and (max-width: $breakpoint-mobile-max) {
 	.social {
 		padding: 0.5em 0;
-		margin: auto;
+		margin: 0;
 
 		i {
 			font-size: 1.4rem;

@@ -1,12 +1,11 @@
 version: 1.0
-
 encoding: utf-8
 
 # Build settings
 permalink: /projects/:year/:title/
 markdown: kramdown
 highlighter: pygments
-plugins: [jekyll-paginate-v2]
+plugins: [ jekyll-paginate-v2 ]
 
 autopages:
   enabled: false
@@ -58,16 +57,30 @@ projects:
   ext-links:
     ct-demo: https://certitrack.nem.codes/
 
-# timeline content
-timeline:
+# about timeline content
+about:
+- year: 2017
+  month: June
+  title: An Immersive Experience
+  blurb: After some self-reflection - driven by existential crisis - I decide to pivot from SaaS sales into the XR space (AR/VR/MR). I begin interning at a digital experience agency called MetaVRse, where I work on a variety of mixed reality projects as an implementation specialist in the experiential marketing scene.
+  img: /images/metavrse-vr-photobooth.jpeg
+- month: December
+  title: A New Beginning
+  blurb: A few months into my internship experience, I realize I want to create experiences for the immersive future we're headed towards. This triggers my passion for software development, leading me to enrol in the Web & Mobile Development program at triOS College.
+  img: /images/trios-classroom.jpg
+- year: 2018
+  month: July
+  title: WordPress Wisdom
+  blurb: Thanks to some encouragement from my instructor, I begin to take on projects for clients who need WordPress websites. The kickoff to my e-commerce expertise.
+  img: /images/wordpress-banner.jpg
 
 # navbar pages
 navbar:
-  - slug: about
-    title: About
+- slug: about
+  title: About
 #  - slug: icons
 #    title: Icons
-  - slug: projects
-    title: Projects
+- slug: projects
+  title: Projects
 
-exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
+exclude: [ "config.rb", "src", "Gemfile", "Gemfile.lock", "package.json", "README.md", "Rakefile" ]

@@ -3,7 +3,6 @@ $(document).ready(function () {
     $.js = function (el) {
         return $("[data-js=" + el + "]");
     };
-
     // Define carousel initialization
     function carousel() {
         $.js("timeline-carousel").slick({
@@ -12,7 +11,7 @@ $(document).ready(function () {
             dots: true,
             autoplay: false,
             speed: 800,
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 2,
             accessibility: true,
             adaptiveHeight: true,
@@ -37,7 +36,6 @@ $(document).ready(function () {
             ]
         });
     }
-
     // Initialize the carousel
     carousel();
 });
