@@ -57,8 +57,8 @@ projects:
   ext-links:
     ct-demo: https://certitrack.nem.codes/
 
-# about timeline content
-about:
+# story timeline content
+story:
 - year: 2017
   month: June
   title: An Immersive Experience
@@ -73,11 +73,12 @@ about:
   title: WordPress Wisdom
   blurb: Thanks to some encouragement from my instructor, I begin to take on projects for clients who need WordPress websites. The kickoff to my e-commerce expertise.
   img: /images/wordpress-banner.jpg
+- title: To be continued...
 
 # navbar pages
 navbar:
-- slug: about
-  title: About
+- slug: story
+  title: Story
 #  - slug: icons
 #    title: Icons
 - slug: projects
