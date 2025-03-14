@@ -27,8 +27,8 @@ sass:
 
 # SEO settings
 title: nem.codes
-description: "Evoking Emotion with Code"
-keywords: "thatxrguy, xrguy, nem.codes, xr, vr, ar, mixed reality, virtual reality, augmented reality, spatial computing, nem, nemo, developer, code, software, apps, application, web, mobile, dev, thatchocolateguy, github, full stack, full-stack, front-end, front end, developer, development, web developer, web development, full stack developer, full-stack developer, full stack engineer, full-stack engineer, full stack, .NET, .NET developer"
+description: "Emotion, engineered. | A portfolio of Nem Ekpunobi, a full stack engineer with a passion for spatial computing and interaction design."
+keywords: "thatxrguy, xrguy, nem.codes, xr, vr, ar, mixed reality, virtual reality, augmented reality, spatial computing, nem, nemo, developer, code, software, apps, application, web, mobile, dev, thatchocolateguy, github, full stack, full-stack, front-end, front end, developer, development, web developer, web development, full stack developer, full-stack developer, full stack engineer, full-stack engineer, full stack, software, engineer, software engineer, .NET, .NET developer, emotion, engineered, portfolio, nem ekpunobi, ekpunobi, nemx14"
 url: https://nem.codes/
 baseurl: ""
 
@@ -59,18 +59,18 @@ projects:
 
 # story timeline content
 story:
-- year: 2017
+- title: An Immersive Experience
+  year: 2017
   month: June
-  title: An Immersive Experience
   blurb: After some self-reflection - driven by existential crisis - I decide to pivot from SaaS sales into the XR space (AR/VR/MR). I begin interning at a digital experience agency called MetaVRse, where I work on a variety of mixed reality projects as an implementation specialist in the experiential marketing scene.
   img: /images/metavrse-vr-photobooth.jpeg
-- month: December
-  title: A New Beginning
+- title: A New Beginning
+  month: December
   blurb: A few months into my internship experience, I realize I want to create experiences for the immersive future we're headed towards. This triggers my passion for software development, leading me to enrol in the Web & Mobile Development program at triOS College.
   img: /images/trios-classroom.jpg
-- year: 2018
+- title: WordPress Wisdom
+  year: 2018
   month: July
-  title: WordPress Wisdom
   blurb: Thanks to some encouragement from my instructor, I begin to take on projects for clients who need WordPress websites. The kickoff to my e-commerce expertise.
   img: /images/wordpress-banner.jpg
 - title: To be continued...
