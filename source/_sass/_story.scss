@@ -99,6 +99,7 @@ $main-color: #337ab7;
    .slick-slider {
       display: flex;
       flex-direction: column;
+      backdrop-filter: blur(10px);
    }
 
    h1 {
