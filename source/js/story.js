@@ -16,7 +16,6 @@ $(document).ready(function () {
             accessibility: true,
             adaptiveHeight: true,
             edgeFriction: 0.1,
-            // mobileFirst: true,
             responsive: [
                 {
                     breakpoint: 1400,

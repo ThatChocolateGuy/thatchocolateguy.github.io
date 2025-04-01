@@ -62,17 +62,21 @@ story:
 - title: An Immersive Experience
   year: 2017
   month: June
-  blurb: After some self-reflection - driven by existential crisis - I decide to pivot from SaaS sales into the XR space (AR/VR/MR). I begin interning at a digital experience agency called MetaVRse, where I work on a variety of mixed reality projects as an implementation specialist in the experiential marketing scene.
+  blurb: After some self-reflection - driven by existential crisis - I decide to pivot from SaaS sales into the XR space (AR/VR/MR). I begin interning at a digital experience agency called <a href="https://metavrse.com/" target="_blank">MetaVRse</a>, where I work on a variety of mixed reality projects as an implementation specialist in the experiential marketing scene.
   img: /images/metavrse-vr-photobooth.jpeg
 - title: A New Beginning
   month: December
-  blurb: A few months into my internship experience, I realize I want to create experiences for the immersive future we're headed towards. This triggers my passion for software development, leading me to enrol in the Web & Mobile Development program at triOS College.
+  blurb: A few months into my internship experience, I realize I want to create experiences for the immersive future we're headed towards. This triggers my passion for software development, leading me to enroll in the Web & Mobile Development program at triOS College.
   img: /images/trios-classroom.jpg
 - title: WordPress Wisdom
   year: 2018
   month: July
-  blurb: Thanks to some encouragement from my instructor, I begin to take on projects for clients who need WordPress websites. The kickoff to my e-commerce expertise.
+  blurb: Thanks to some encouragement from my instructor, I begin to take on projects for clients who need WordPress websites. The kickoff to my e-commerce expertise.<br/><a href="/wordpress" target="_blank" class="story-link-newline">Take a gander...</a>
   img: /images/wordpress-banner.jpg
+- title: Machines can see
+  month: September
+  blurb: I begin to dabble in machine learning and computer vision, and start to see the potential of these technologies in the XR space. I begin to work on a few class projects that leverage these technologies, including <a href="/attendar" target="_blank">AttendAR</a>, a facial recognition app to track classroom attendance with ease.
+  img: /images/facerecognition_1.jpg
 - title: To be continued...
 
 # navbar pages
