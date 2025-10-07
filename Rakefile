@@ -3,7 +3,7 @@ require "rubygems"
 require "tmpdir"
 require "bundler/setup"
 require "jekyll"
-require "bourbon"
+# require "bourbon"  # Removed - Bourbon eliminated in Phase 2
 
 # Change your GitHub reponame
 GITHUB_REPONAME = "ThatChocolateGuy/thatchocolateguy.github.io"
