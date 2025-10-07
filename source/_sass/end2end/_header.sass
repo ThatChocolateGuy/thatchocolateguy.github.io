@@ -3,7 +3,10 @@
   padding: 0
   margin: 0
   border-bottom: 1px solid rgba($light-gray-color, .5)
-  +position(fixed, 0 0 null 0)
+  position: fixed
+  top: 0
+  right: 0
+  left: 0
   min-height: 80px
   width: 100%
   z-index: 1000
@@ -11,7 +14,11 @@
   @extend %clearfix
 
   +media($tablet-small)
-    +position(relative, auto)
+    position: relative
+    top: auto
+    right: auto
+    bottom: auto
+    left: auto
     padding: $base-spacing 0
     min-height: 35px
 
@@ -34,13 +41,19 @@
   padding: 0
   float: left
   font-weight: $font-weight-normal
-  font-size: rem(20)
-  +position(fixed, $base-spacing null null $base-spacing)
+  font-size: 1.25rem
+  position: fixed
+  top: $base-spacing
+  left: $base-spacing
   z-index: 100
 
   +media($tablet-small)
     padding: 5px 0
-    +position(relative, auto)
+    position: relative
+    top: auto
+    right: auto
+    bottom: auto
+    left: auto
 
   span
     color: $primary-color

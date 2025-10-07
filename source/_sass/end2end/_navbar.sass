@@ -1,6 +1,10 @@
 .navbar
   display: none
-  +position(fixed, 0)
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
   z-index: 99
   text-align: center
   background-color: rgba($action-color, .9)
@@ -30,7 +34,8 @@
       width: 0
       background-color: #fff
       transition: width $base-duration $base-timing
-      +position(absolute, null 0 null null)
+      position: absolute
+      right: 0
 
     &:before
       top: 0
@@ -76,7 +81,9 @@
   float: right
   padding: $xsmall-spacing $small-spacing
   margin: 0
-  +position(fixed, $base-spacing $base-spacing null null)
+  position: fixed
+  top: $base-spacing
+  right: $base-spacing
   z-index: 100
   @extend %button
 
@@ -90,7 +97,9 @@
     display: none
 
 #toggleNavbar
-  +position(fixed, -999999px -999999px null null)
+  position: fixed
+  top: -999999px
+  right: -999999px
 
   &:checked
     ~ .navbar
