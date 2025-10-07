@@ -43,13 +43,6 @@ a {
 
 // Hero Logo
 .hero-inner {
-	width: 100%;
-	display: flex;
-	text-align: center;
-	flex-direction: column;
-	justify-content: center;
-	gap: 1rem;
-
 	h1 {
 		font-weight: initial;
 	}
@@ -118,8 +111,6 @@ a {
 section.hero {
 	background: $background-translucent;
 	border-top: 5px solid #337ab7;
-	display: flex;
-	height: auto;
 }
 
 .pagination>ul {
