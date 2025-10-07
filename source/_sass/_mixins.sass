@@ -1,3 +1,17 @@
+// Clearfix mixin (replaces Bourbon dependency)
+=clearfix
+  &::after
+    clear: both
+    content: ""
+    display: table
+
+// Word wrap mixin (replaces Bourbon dependency)
+=word-wrap($wrap: break-word)
+  overflow-wrap: $wrap
+  word-wrap: $wrap
+  word-break: break-all
+
+// Media query mixin
 =media($query: $feature $value)
   @if length($query) == 1
     @media screen and ($default-feature: nth($query, 1))

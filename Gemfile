@@ -12,7 +12,7 @@ gem "json", "~> 2.6"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "bourbon", "~>4.3"          # Keep current Bourbon until Phase 2
+  # gem "bourbon", "~>4.3"          # REMOVED - Bourbon eliminated in Phase 2!
   gem "jekyll-feed", "~>0.11"     # Last version compatible with Ruby 2.4
   gem "jekyll-paginate-v2", "~>2.0" # Use 2.x for Ruby 2.4 compatibility
   gem "rouge", "~>3.26"           # Replace pygments, Ruby 2.4 compatible
