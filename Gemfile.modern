@@ -1,0 +1,21 @@
+source "https://rubygems.org"
+
+# Incremental upgrade - Stage 1: Jekyll 3.9 (last 3.x version)
+gem "jekyll", "~>3.9.0"
+gem "rake", "~>13.0"
+gem "sass", "~>3.7.4"  # Last 3.x version before breaking changes
+gem "json", "~> 2.6"
+
+# If you have any plugins, put them here!
+group :jekyll_plugins do
+  gem "bourbon", "~>4.3"  # Keep current version until SASS audit complete
+  gem "jekyll-feed", "~>0.15"
+  gem "jekyll-paginate-v2"
+  gem "rouge", "~>3.30.0"  # Replace pygments.rb
+  gem "jekyll-compose"
+  gem "kramdown", "~>1.17.0"  # Keep 1.x for compatibility
+  gem "kramdown-parser-gfm"
+end
+
+# Add for modern Jekyll compatibility
+gem "webrick", "~> 1.8"  # Required for Jekyll serve on Ruby 3.0+

@@ -84,9 +84,49 @@ Edit `_config.yml` under `story:` array - requires title, year/month, blurb (HTM
 - **Social Links**: Configured in author section of `_config.yml`
 - **Domain**: Custom domain `nem.codes` managed via CNAME file in deployment
 
+## Legacy Dependencies & Upgrade Challenges
+
+### Critical Constraints
+- **Jekyll 3.6.3** (2017): Major breaking changes in Jekyll 4.0+ (2019)
+- **Ruby 2.4.0** (2016): End-of-life, modern gems require Ruby 2.7+
+- **Bourbon 4.3.4**: Deprecated SASS framework, replaced by modern CSS Grid/Flexbox
+- **Pygments**: Deprecated syntax highlighter, replaced by Rouge in Jekyll 4.0+
+
+### Breaking Changes in Modern Versions
+- Jekyll 4.0+ drops support for Ruby < 2.5
+- Bourbon 5.0+ completely changed API and removed many mixins
+- `jekyll-sass-converter` 2.0+ requires Sass 1.0+ (breaking changes from 3.4)
+- `kramdown` 2.0+ has different parser behavior and stricter syntax
+- `jekyll-paginate-v2` may conflict with Jekyll 4.0+ pagination
+
+### Safe Upgrade Strategy
+```bash
+# 1. Incremental Jekyll upgrade (stay in 3.x family)
+gem "jekyll", "~>3.9.0"  # Last 3.x version with Ruby 2.4 support
+
+# 2. Update supporting gems cautiously
+gem "kramdown", "~>1.17.0"  # Keep 1.x for compatibility
+gem "sass", "~>3.7.4"       # Last 3.x version
+
+# 3. Replace deprecated gems
+# Remove: gem "pygments.rb"
+# Add: gem "rouge", "~>3.30.0"
+
+# 4. Bourbon migration plan
+# Phase 1: Lock to Bourbon 4.x, audit mixin usage
+# Phase 2: Replace Bourbon mixins with modern CSS
+# Phase 3: Remove Bourbon dependency entirely
+```
+
+### Development Dependencies Timeline
+- **Current**: Jekyll 3.6 + Ruby 2.4 + Bourbon 4.3 (2017-era stack)
+- **Target**: Jekyll 4.3+ + Ruby 3.1+ + Modern CSS (2024+ stack)
+- **Risk**: Direct upgrade breaks Bourbon mixins, SASS compilation, and Jekyll plugins
+
 ## Key Files for AI Agents
 - `_config.yml`: Site configuration, story data, author info, project links
 - `source/_layouts/`: Template hierarchy (default→pages→post)
 - `source/_sass/_variables.sass`: Design system tokens
 - `Rakefile`: Deployment automation and GitHub Pages publishing
 - `source/_includes/story.html`: Timeline carousel implementation
+- `Gemfile.lock`: **CRITICAL** - Shows 2017-era dependencies; major upgrade risks
