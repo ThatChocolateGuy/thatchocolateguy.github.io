@@ -1,0 +1,116 @@
+# encoding: UTF-8
+# Jekyll 4.x Production Deployment Rakefile
+require "rubygems"
+require "tmpdir"
+require "bundler/setup"
+
+# Change your GitHub reponame
+GITHUB_REPONAME = "ThatChocolateGuy/thatchocolateguy.github.io"
+GITHUB_REPO_BRANCH = "master"
+GITHUB_CUSTOM_DOMAIN = "nem.codes"
+
+SOURCE = "source/"
+DEST = "_site_jekyll4"
+CONFIG_FILE = "_config.yml"
+
+task default: %w[publish_jekyll4]
+
+desc "Generate blog files with Jekyll 4.x"
+task :generate_jekyll4 do
+  puts "🚀 Building with Jekyll 4.x (Ruby 3.3.4)..."
+  
+  # Ensure we're in the Ruby 3.3.4 environment
+  system("source /usr/local/rvm/scripts/rvm && rvm use 3.3.4@jekyll4")
+  
+  # Build with Jekyll 4.x using the Phase 3 Gemfile
+  build_command = [
+    "source /usr/local/rvm/scripts/rvm",
+    "rvm use 3.3.4@jekyll4", 
+    "BUNDLE_GEMFILE=Gemfile.phase3 bundle exec jekyll build",
+    "--source #{SOURCE}",
+    "--destination #{DEST}",
+    "--config #{CONFIG_FILE}"
+  ].join(" && ")
+  
+  success = system(build_command)
+  
+  if success
+    puts "✅ Jekyll 4.x build completed successfully!"
+    puts "📁 Generated site in: #{DEST}"
+  else
+    abort("❌ Jekyll 4.x build failed!")
+  end
+end
+
+desc "Generate and publish blog to GitHub Pages with Jekyll 4.x"
+task :publish_jekyll4 => [:generate_jekyll4] do
+  puts "🌐 Deploying Jekyll 4.x site to GitHub Pages..."
+  
+  Dir.mktmpdir do |tmp|
+    puts "📋 Copying built site to temporary directory..."
+    cp_r "#{DEST}/.", tmp
+
+    pwd = Dir.pwd
+    Dir.chdir tmp
+
+    puts "🔧 Setting up Git repository..."
+    system "git init"
+    system "git checkout --orphan #{GITHUB_REPO_BRANCH}"
+    system "echo #{GITHUB_CUSTOM_DOMAIN} > CNAME"
+    system "git add ."
+    
+    message = "Jekyll 4.x site updated at #{Time.now.utc} - Ruby 3.3.4 + Jekyll 4.3.4"
+    puts "💬 Commit message: #{message}"
+    system "git commit -am #{message.inspect}"
+    
+    puts "🔗 Adding remote origin..."
+    system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
+    
+    puts "🚀 Pushing to GitHub Pages..."
+    system "git push origin #{GITHUB_REPO_BRANCH} --force"
+
+    Dir.chdir pwd
+  end
+  
+  puts "🎉 Jekyll 4.x deployment complete!"
+  puts "🌍 Site will be available at: https://#{GITHUB_CUSTOM_DOMAIN}"
+  puts ""
+  puts "✅ Modern stack now live:"
+  puts "   • Ruby 3.3.4"
+  puts "   • Jekyll 4.3.4" 
+  puts "   • Rouge 4.6 syntax highlighting"
+  puts "   • Modern SASS compilation"
+  puts "   • Enhanced SEO & RSS feeds"
+end
+
+desc "Quick development build with Jekyll 4.x" 
+task :dev_build do
+  puts "🔨 Quick Jekyll 4.x development build..."
+  build_command = [
+    "source /usr/local/rvm/scripts/rvm",
+    "rvm use 3.3.4@jekyll4",
+    "BUNDLE_GEMFILE=Gemfile.phase3 bundle exec jekyll build",
+    "--source #{SOURCE}",
+    "--destination #{DEST}",
+    "--config #{CONFIG_FILE}"
+  ].join(" && ")
+  
+  system(build_command)
+end
+
+desc "Start Jekyll 4.x development server"
+task :serve do
+  puts "🖥️  Starting Jekyll 4.x development server..."
+  serve_command = [
+    "source /usr/local/rvm/scripts/rvm",
+    "rvm use 3.3.4@jekyll4",
+    "BUNDLE_GEMFILE=Gemfile.phase3 bundle exec jekyll serve",
+    "--source #{SOURCE}",
+    "--destination #{DEST}",
+    "--config #{CONFIG_FILE}",
+    "--port 4004",
+    "--host 0.0.0.0"
+  ].join(" && ")
+  
+  system(serve_command)
+end
