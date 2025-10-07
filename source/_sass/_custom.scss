@@ -41,8 +41,13 @@ a {
 	}
 }
 
-// Hero Logo
+// Hero Logo - CRITICAL FIXES for Jekyll 4.x
 .hero-inner {
+	// IMPORTANT: Remove flex override that conflicts with table-cell layout
+	// This fixes author image display and text truncation issues
+	display: table-cell !important;
+	flex: none !important;
+	
 	h1 {
 		font-weight: initial;
 	}

@@ -5,11 +5,11 @@ encoding: utf-8
 permalink: /projects/:year/:title/
 markdown: kramdown
 highlighter: rouge
-plugins: 
-  - jekyll-paginate-v2
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+plugins:
+- jekyll-paginate-v2
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
 
 autopages:
   enabled: false
